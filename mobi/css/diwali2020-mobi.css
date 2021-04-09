@@ -1,0 +1,151 @@
+
+* {margin: 0;padding: 0;}
+header, footer, article, section, figure, nav, aside {display: block;}
+body {font-family: 'Open Sans', Arial, Helvetica, sans-serif;font-size: 16px;}
+a {color: #0066CC;text-decoration: none;outline: none;}
+a:hover {text-decoration: none;}
+img {border: 0 none;max-width: 100%;}
+ul, ol {list-style-type: none;}
+.clearfix:after {visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+
+.diw-header-block {margin-left: 100px;padding-top: 10px;}
+.diw-header-block .diw-header-lt {float: left;position: relative;}
+.diw-header-lt .diw-oneindia-logo {width: 90px;display: block;position: relative;top: 10px;}
+.diw-header-lt .diw-head-title {font-size: 28px;font-weight: bold;color: #fff;}
+.diw-header-lt .head-lamp {position: absolute;top: 16px;left: 95px;width: 30px;}
+.diw-header-block .diw-header-rt {float: right;position: relative;top: 32px;}
+@font-face {
+  font-family: 'Samarkan-Normal1';
+    src:  url('Samarkan-Normal1.ttf.woff') format('woff'),
+    url('Samarkan-Normal1.ttf.svg#Samarkan-Normal1') format('svg'),
+    url('Samarkan-Normal1.ttf.eot'),
+    url('Samarkan-Normal1.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+.diw-happy-diwali{font-family: 'Samarkan-Normal1';font-size: 14px;padding-left: 58px;color: #f8aa15;text-transform: uppercase;}
+.sponser-logo {width: 80px;margin-right: 10px;}
+.sponser-top {font-size: 10px;padding-bottom: 4px;color: #fff;}
+
+.lamp-container{margin-left: 128px;padding-top: 50px;position: relative;}
+.lamp-container .lamp-title {font-size: 22px;font-weight: bold;font-family: Oswald Bold;color: #1f0030;padding-bottom: 10px;}
+.lamp-container .title-lamp {position: absolute;top: 23px;width: 35px;left: 130px;}
+.lamp-container .lamp-info {font-size: 12px;color: #000;}
+
+.diw-greeting-container {background: #fff;position: relative;height: 275px;}
+.diw-greeting-container::before, .diw-greeting-container::after {position: absolute;background: url(../images/border-1.png) repeat-x center;content: "";left: 0;right: 0;z-index: 999;background-size: contain;height: 35px;}
+.diw-greeting-container::before {top: -2px;}
+.diw-greeting-container::after {bottom: -2px;-moz-transform: rotate(180deg);-ms-transform: rotate(180deg);-webkit-transform: rotate(180deg);transform: rotate(180deg);}
+.diwali-title {text-align: center;color: #000;font-size: 20px;font-weight: bold;padding: 10px 0px;}
+.greeting-card-slider{position: relative;padding: 0px 20px;}
+.greeting-card-slider .bx-controls-direction a {display: none;}
+
+.diw-mantra-container{position: relative;}
+.diw-mantra-container::before{content: '';background: url(../images/pandemic-lt.png) no-repeat left;position: absolute;left: 0px;top: 0px;width: 70px;height: 130px;visibility: visible;z-index: 111;}
+.mantras-thumb-slider ul li{display: inline-block;width: 150px;margin-right: 15px;max-height: 196px;overflow: hidden;}
+.mantras-thumb-slider ul{overflow-x: scroll;overflow-y: hidden;white-space: nowrap;position: relative;}
+.mantras-thumb-slider {margin-left: 85px;    padding-bottom: 15px;}
+.man-sli-thumb{width: 150px;height: 110px;overflow: hidden;}
+.mantras-thumb-slider ul li .mantras-info {font-size: 14px;white-space: initial;padding: 5px 0px;color: #000;}
+
+.pandamic-title {position: relative;color: #fff;font-size: 28px;text-align: center;font-weight: bold;width: 175px;margin-left: 170px;top: 55px;}
+.pandamic-list ul li{display: inline-block;width: 250px;margin-right: 20px;}
+.pandamic-list ul{overflow-x: scroll;overflow-y: hidden;white-space: nowrap;position: relative;}
+.diw-pandamic-details .pandamic-thumb{width: 250px;height: 170px;overflow: hidden;}
+.diw-pandamic-details .pandamic-cont{color: #000;font-size: 14px;white-space: initial;padding: 10px 0px;}
+
+.diwali-fashion-title {position: relative;color: #fff;font-size: 28px;text-align: center;font-weight: bold;width: 175px;margin-left: -9px;top: 79px;}
+.dwi-bazar-list ul li{display: inline-block;width: 250px;margin-right: 20px;}
+.dwi-bazar-list ul{overflow-x: scroll;overflow-y: hidden;white-space: nowrap;position: relative;}
+.thumb-info{color: #fff;font-size: 14px;white-space: initial;padding: 10px 0px;}
+
+.diw-ideas-cont .diw-ideas-title {float: left;position: relative;font-size: 28px;font-weight: bold;color: #fff;text-align: center;top: 72px;margin: 0 auto;width: 100%;left: -5px;}
+.diwali-deco-title{position: relative;font-size: 28px;font-weight: bold;text-align: left;top: 80px;margin-left: 140px;color: #000;left: -5px;}
+.parts-list ul li{display: inline-block;width: 200px;margin-right: 20px;}
+.parts-list ul{overflow-x: scroll;overflow-y: hidden;white-space: nowrap;position: relative;}
+.part-thumb .thumb-img{height: 122px;overflow: hidden;}
+
+.diw-ritual-list{width: 100%;max-width: 220px;margin: 0 auto;}
+.drive-title{color: #000;font-size: 20px;position: relative;left: 150px;top: 10px;float: left;font-weight: bold;padding: 10px 0px;}
+
+.diw-drive-list ul li{display: inline-block;width: 200px;margin-right: 10px;}
+.diw-drive-list ul{overflow-x: scroll;overflow-y: hidden;white-space: nowrap;position: relative;}
+.diw-drive-list {padding-top: 50px;margin-left: 125px;}
+
+.diw-celeb-list ul li{display: inline-block;width: 200px;margin-right: 35px;}
+.diw-celeb-list ul{overflow-x: scroll;overflow-y: hidden;white-space: nowrap;position: relative;}
+.diw-celeb-list{margin-left: 110px;padding-top: 10px;}
+.diw-celeb-list ul li .celeb-thumb {padding: 5px 6px;overflow: hidden;width: 200px;height: 163px;position: relative;}
+
+.border-img {position: absolute;left: 0px;overflow: hidden;z-index: 11;}
+.inner-img {width: 195px;height: 157px;border-radius: 47%;overflow: hidden;top: 0px;left: 0px;position: relative;}
+.diw-astro-list ul li{display: inline-block;width: 200px;margin-right: 10px;}
+.diw-astro-list ul{overflow-x: scroll;overflow-y: hidden;white-space: nowrap;position: relative;}
+.diw-video-list ul li{display: inline-block;width: 200px;margin-right: 10px;}
+.diw-video-list ul{overflow-x: scroll;overflow-y: hidden;white-space: nowrap;position: relative;}
+
+
+
+
+.diw-header-container {background: url(../images/header-bg.jpg) no-repeat center;background-size: 100%;position: relative;height: 120px;}
+.diw-lamp-container{background: url(../images/lamp-bg.jpg) no-repeat center;background-size: cover;position: relative;height: 155px;}
+.diw-pandamic-container{background: url(../images/pandamic-bg.jpg) no-repeat center;background-size: cover;position: relative;height: 175px;}
+.diw-pandamic-list-container{background: url(../images/pandamic-list-bg.jpg) no-repeat center;background-size: cover;position: relative;height: 240px;padding: 10px 0px 0px 10px;}
+.diw-fashion-container{background: url(../images/fashion-bg.jpg) no-repeat center;background-size: cover;position: relative;height: 240px;}
+.diw-bazar-container{background:#0a0f12;position: relative;height: 255px;padding:0px 0px 0px 10px; }
+.diw-ideas-container{background: url(../images/ideas-bg.jpg) no-repeat center;background-size: cover;position: relative;height: 240px}
+.diw-deco-container{background: url(../images/deco-bg.jpg) no-repeat center;background-size: cover;position: relative;height: 240px}
+.diw-parts-container{background: url(../images/parts-bg.jpg) no-repeat center;background-size: cover;position: relative;height: 255px;padding:0px 0px 0px 10px;}
+.diw-recip-container{background: url(../images/recips-bg.jpg) no-repeat center;background-size: cover;position: relative;height: 325px;padding:0px 0px 0px 10px;}
+.diw-ritual-container{background: url(../images/ritual-bg.jpg) no-repeat center;background-size: cover;position: relative;height: 295px;padding:0px 0px 0px 10px;}
+.diw-drive-section{background: url(../images/drive-bg.jpg) no-repeat center;background-size: cover;position: relative;height: 260px;padding:0px 0px 0px 10px;}
+.diw-celeb-container{background: url(../images/celeb-bg.jpg) no-repeat center;background-size: cover;position: relative;height: 240px;padding:0px 0px 0px 10px;}
+.diw-astro-container{background: url(../images/astro-bg.jpg) no-repeat center;background-size: cover;position: relative;height: 280px;padding:0px 0px 0px 10px;}
+.diw-video-container{background: url(../images/video-bg.jpg) no-repeat center;background-size: cover;position: relative;height: 280px;padding:0px 0px 0px 20px;}
+.footer-bg-container{background: url(../images/footer-bg.jpg) no-repeat center;background-size: 100%;position: relative;height: 64px;}
+
+@media only screen and (max-device-width: 320px) {
+.pandamic-title {font-size: 24px;margin-left: 140px;}
+.diw-greeting-container {height: 250px;}
+.lamp-container {margin-left: 100px;}
+.diw-drive-list {margin-left: 100px;}
+.diw-celeb-list {margin-left: 80px;}
+.diw-header-block {margin-left: 65px;}
+    }
+
+    /* Greeting-card-preview */
+    .diw-greeting-card-container{background: #fff;position: relative;padding: 25px 0px;}
+    .diw-greeting-card-container::before, .diw-greeting-card-container::after {position: absolute;background: url(../images/border-1.png) repeat-x center;content: "";left: 0;right: 0;z-index: 999;background-size: contain;height: 25px;}
+    .diw-greeting-card-container::after {bottom: -2px;-moz-transform: rotate(180deg);-ms-transform: rotate(180deg);-webkit-transform: rotate(180deg);transform: rotate(180deg);}
+    .diw-greeting-card-container::before {top: -2px;}
+    .form-container input[type=text], select, textarea {width: 100%;padding: 10px;border: 1px solid #ccc;background: #ebebeb;border-radius: 4px;box-sizing: border-box;margin-bottom: 16px;resize: vertical;}
+    .form-container input[type=submit] {background-color: #ee0c6e;color: white;padding: 12px 70px;border: none;font-size: 16px;font-weight: bold;text-align: center;margin: 0 auto;display: block;border-radius: 4px;cursor: pointer;}
+    .diw-greeting-card-content .diw-gree-crd-lt{width: 100%;padding-bottom: 15px;}
+    .diw-greeting-card-content .diw-gree-form-md{}
+    .greeting-card-header {font-size: 16px;text-align: center;font-weight: bold;padding-bottom: 10px;color: #000;}
+    .diw-social-icons {padding: 20px 0px;text-align: center;}
+    .diw-social-icons .share-icons {display: inline-block;width: 30px;height: 30px;background: #3e3e3e;color: #fff;border-radius: 50%;text-align: center;margin-right: 5px;}
+    .share-icons i{color: #fff;line-height: 30px;}
+    .diw-cancle-link {text-align: center;text-transform: uppercase;font-size: 14px;}
+    .diw-cancle-link a{text-decoration: underline;}
+    .greeting-card-thumn {background: #fff;padding: 0px 5px 0px 0px;box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);border-radius: 5px;}
+
+
+
+.diw-greeting-card-list ul li{float: left;width: 47%;margin-right: 18px;padding-bottom: 20px;}
+.diw-greeting-card-list ul li:nth-child(2n){margin-right: 0px;}
+.greeting-card {
+    padding: 10px;
+}
+.card-shadow{background: #fff;margin: 2px;box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);border-radius: 5px;}
+.gree-card-thumb {position: relative;overflow: hidden;background: rgb(0 0 0 / 85%);}
+.middle-text{position: absolute;}
+.middle-text {position: absolute;top: 50%;width: 91%;left: 50%;margin: 0 auto;text-align: center;transition: .5s ease;opacity: 0;transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);}
+.middle-text .text{font-size: 12px;color: #fff;font-weight: bold;border: 2px solid #fff;    background: #ee0c6e;padding: 15px;border-radius: 5px;}
+.overlay{opacity: 1;display: block;width: 100%;height: auto;transition: .5s ease;backface-visibility: hidden;background: #000 !important;}
+.gree-card-thumb:hover .overlay {opacity: 0.3;background: #000 !important;}
+.gree-card-thumb:hover .overlay {opacity: 0.3;background: #000 !important;}
+.gree-card-thumb:hover .middle-text {opacity: 1;}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Diwali-2020</title>
+    <link rel="stylesheet" href="css/greeting-card.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <body>
+        <div class="diw-wrapper">
+             <section>
+               <div class="diw-greeting-card-container">
+                   <div class="maxwidth greeting-card">
+                     <div class="diw-greeting-card-content clearfix">
+                       <div class="diw-gree-crd-lt">
+                         <div class="greeting-card-header">
+                           Preview Your Template
+                         </div>
+                         <div class="greeting-card-thumn greeting-01">
+                           <img src="images/greeting-01.gif" alt="">
+                           <div class="oneindia-logo"></div>
+                           <div class="greeting-message">May the festival of light illuminate the lamp of happiness in your life. Happy Diwali</div>
+                         </div>
+                       </div>
+                       <div class="diw-gree-form-md">
+                         <div class="greeting-card-header">
+                           Share Your Friends
+                         </div>
+                           <div class="form-container">
+                             <form action="" method="post">
+                               <div>
+	                               	<textarea placeholder="Start Typin..." autofocus  name="the-textarea" id="the-textarea" maxlength="150" style="height:200px">May the festival of light illuminate the lamp of happiness in your life. Happy Diwali</textarea>
+	                               	<div id="the-count">
+								    	<span id="current">0</span>
+								    	<span id="maximum">/ 150</span>
+								  	</div>
+                               	</div>
+                               
+                                 <!-- <input type="text" id="fname" name="firstname" placeholder="To Name">
+                                  <input type="text" id="lname" name="lastname" placeholder="From Name"> -->
+                                  <input type="submit" value="Preview">
+                             </form>
+                           </div>
+                           <div class="diw-social-icons">
+                               <div class="share-icons fb">
+                                 <a href="#"><i class="fab fa-facebook-f"></i></a>
+                               </div>
+                               <div class="share-icons fb">
+                                 <a href="#"><i class="fab fa-twitter"></i></a>
+                               </div>
+                               <div class="share-icons fb">
+                                 <a href="#"><i class="fab fa-whatsapp"></i></a>
+                               </div>
+                               <div class="share-icons fb">
+                                 <a href="#"><i class="fab fa-telegram-plane"></i></a>
+                               </div>
+                               <div class="share-icons fb">
+                                 <a href="#"><i class="fab fa-instagram"></i></a>
+                               </div>
+                           </div>
+                           <div class="diw-cancle-link">
+                             <a href="greeting-card.html">Cancel</a>
+                           </div>
+                       </div>
+                       <div class="diw-ad">
+                        <a href="#">
+                          <img src="images/ad-1.jpg" alt="">
+                        </a>
+                       </div>
+
+                     </div>
+                   </div>
+                 </div>
+             </section>
+        </div>
+        
+        <script>
+			$(document).ready(function() {
+				$('textarea').keyup(function() {
+    
+				  var characterCount = $(this).val().length,
+				      current = $('#current'),
+				      maximum = $('#maximum'),
+				      theCount = $('#the-count');
+				    
+				  current.text(characterCount);
+				 
+				  
+				  /*This isn't entirely necessary, just playin around*/
+				  if (characterCount < 70) {
+				    current.css('color', '#666');
+				  }
+				  if (characterCount > 70 && characterCount < 90) {
+				    current.css('color', '#6d5555');
+				  }
+				  if (characterCount > 90 && characterCount < 100) {
+				    current.css('color', '#793535');
+				  }
+				  if (characterCount > 100 && characterCount < 120) {
+				    current.css('color', '#841c1c');
+				  }
+				  if (characterCount > 120 && characterCount < 139) {
+				    current.css('color', '#8f0001');
+				  }
+				  
+				  if (characterCount >= 140) {
+				    maximum.css('color', '#8f0001');
+				    current.css('color', '#8f0001');
+				    theCount.css('font-weight','bold');
+				  } else {
+				    maximum.css('color','#666');
+				    theCount.css('font-weight','normal');
+				  }
+				  
+				      
+				});
+			});
+		</script>
+    </body>
+</html>

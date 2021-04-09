@@ -1,0 +1,91 @@
+body {font-family: 'Open Sans', Arial, Helvetica, sans-serif;font-size: 16px;}
+* {margin: 0;padding: 0;list-style-type: none;}
+a{text-decoration: none;}
+.clearfix {display: block;}
+.clearfix:after {visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+.maxwidth {margin: 0 auto;max-width: 1280px;}
+img {border: 0 none;max-width: 100%;}
+
+
+/* Greeting-card-preview */
+.diw-greeting-card-container{background: #fff;position: relative;padding: 50px 0px;}
+.diw-greeting-card-container::before, .diw-greeting-card-container::after {position: absolute;background: url(../images/border-2.png) repeat-x center;content: "";left: 0;right: 0;z-index: 999;height: 35px;}
+.diw-greeting-card-container::after {bottom: -2px;-moz-transform: rotate(180deg);-ms-transform: rotate(180deg);-webkit-transform: rotate(180deg);transform: rotate(180deg);}
+.diw-greeting-card-container::before {top: -2px;}
+.form-container input[type=text], select, textarea {width: 100%;padding: 12px;border: 1px solid #ccc;background: #ebebeb;border-radius: 4px;box-sizing: border-box;margin-top: 6px;margin-bottom: 16px;resize: vertical;}
+.form-container input[type=submit] {background-color: #ee0c6e;color: white;padding: 12px 70px;border: none;font-size: 16px;font-weight: bold;text-align: center;margin: 0 auto;display: block;border-radius: 4px;cursor: pointer;}
+.diw-greeting-card-content .diw-gree-crd-lt{float: left;width: 430px;margin-right: 50px;}
+.diw-greeting-card-content .diw-gree-form-md{float: left;width: 450px;margin-right: 20px;}
+.diw-greeting-card-content .diw-ad{float: right;padding-top: 45px;}
+.greeting-card-header {font-size: 16px;text-align: center;font-weight: bold;padding-bottom: 20px;color: #000;}
+.diw-social-icons {padding: 20px 0px;text-align: center;}
+.diw-social-icons .share-icons {display: inline-block;width: 30px;height: 30px;background: #3e3e3e;color: #fff;border-radius: 50%;text-align: center;margin-right: 5px;}
+.share-icons i{color: #fff;line-height: 30px;}
+.diw-cancle-link {text-align: center;text-transform: uppercase;font-size: 14px;}
+.diw-cancle-link a{text-decoration: underline;}
+.greeting-card-thumn {background: #fff;padding: 0px 5px 0px 0px;box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);border-radius: 5px;position: relative;}
+
+
+/* Greeting-card-list */
+.diw-greeting-card-list ul li{float: left;width: 240px;margin-right: 20px;padding-bottom: 30px;}
+
+.diw-greeting-card-list ul li:nth-child(5n){margin-right: 0px;}
+.card-shadow{background: #fff;border-right: 5px solid #fff;border-bottom: 5px solid #fff;box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);border-radius: 5px;}
+.gree-card-thumb {position: relative;    height: 305px;overflow: hidden;background: rgb(0 0 0 / 85%);}
+.middle-text{position: absolute;}
+.middle-text {position: absolute;top: 50%;width: 85%;left: 50%;margin: 0 auto;text-align: center;transition: .5s ease;opacity: 0;transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);}
+.middle-text .text{color: #fff;font-weight: bold;border: 2px solid #fff;    background: #ee0c6e;padding: 15px;border-radius: 5px;}
+.overlay{opacity: 1;display: block;width: 100%;height: auto;transition: .5s ease;backface-visibility: hidden;background: #000 !important;}
+.gree-card-thumb:hover .overlay {opacity: 0.3;background: #000 !important;}
+.gree-card-thumb:hover .middle-text {opacity: 1;}
+
+
+.oneindia-logo {background: url(../logos/oneindia-logo-2.svg) no-repeat 0 0;background-size: contain;width: 120px;height: 50px;position: absolute;right: 10px;top: 10px;}
+
+
+/*
+ * Custom Messages Styles
+ */
+.greeting-message {position: absolute;bottom: 20px;left: 35px;right: 35px;text-align: center;font-size: 16px;color: #fff;}
+
+.greeting-card-thumn.greeting-01 .greeting-message {position: absolute;bottom: 20px;left: 35px;right: 35px;text-align: center;font-size: 16px;color: #fff;}
+.greeting-card-thumn.greeting-02 .greeting-message {position: absolute;bottom: 20px;left: 35px;right: 35px;text-align: center;font-size: 16px;color: #740e09;}
+.greeting-card-thumn.greeting-03 .greeting-message {position: absolute;bottom: 20px;left: 35px;right: 35px;text-align: center;font-size: 16px;color: #fff;}
+.greeting-card-thumn.greeting-04 .greeting-message {position: absolute;bottom: 20px;left: 35px;right: 35px;text-align: center;font-size: 16px;color: #fff;}
+.greeting-card-thumn.greeting-05 .greeting-message {position: absolute;bottom: 20px;left: 35px;right: 35px;text-align: center;font-size: 16px;color: #fff;}
+.greeting-card-thumn.greeting-06 .greeting-message {position: absolute;bottom: 20px;left: 35px;right: 35px;text-align: center;font-size: 16px;color: #fff;}
+.greeting-card-thumn.greeting-07 .greeting-message {position: absolute;bottom: 20px;left: 35px;right: 35px;text-align: center;font-size: 16px;color: #fff;}
+.greeting-card-thumn.greeting-08 .greeting-message {position: absolute;bottom: 20px;left: 35px;right: 35px;text-align: center;font-size: 16px;color: #fff;}
+.greeting-card-thumn.greeting-09 .greeting-message {position: absolute;bottom: 20px;left: 35px;right: 35px;text-align: center;font-size: 16px;color: #fff;}
+.greeting-card-thumn.greeting-10 .greeting-message {position: absolute;bottom: 20px;left: 35px;right: 35px;text-align: center;font-size: 16px;color: #fff;}
+.greeting-card-thumn.greeting-11 .greeting-message {position: absolute;bottom: 20px;left: 35px;right: 35px;text-align: center;font-size: 16px;color: #fff;}
+.greeting-card-thumn.greeting-12 .greeting-message {position: absolute;bottom: 20px;left: 35px;right: 35px;text-align: center;font-size: 16px;color: #2c003d;}
+
+
+@media screen and (max-width: 400px) {
+	.diw-greeting-card-list, .diw-greeting-card-content {margin: 10px;}
+	.diw-greeting-card-list ul li{float: left;width: 100%;margin-right: 0;padding-bottom: 30px;margin: 0 auto;text-align: center;}
+	.gree-card-thumb {height: 435px;}
+	.diw-greeting-card-list ul li:nth-child(5n){margin-right: auto;}
+	.gree-card-thumb .middle-text {opacity: 1;}
+	.diw-greeting-card-content .diw-gree-crd-lt, .diw-greeting-card-content .diw-gree-form-md {width: 100%;margin-right: 0;margin-bottom: 20px;}
+	.diw-greeting-card-content .diw-ad {float: none;text-align: center;}
+}
+@media screen and (max-width: 520px) and (min-width: 401px) {
+	.diw-greeting-card-list, .diw-greeting-card-content {margin: 10px;}
+	.diw-greeting-card-list ul li{float: left;width: 48%;margin-right: 4%;padding-bottom: 30px;text-align: center;}
+	.diw-greeting-card-list ul li:nth-child(2n){margin-right: 0px;}
+	.diw-greeting-card-list ul li.ad-block{margin-right: 0px;width: 100%;}
+	.gree-card-thumb {height: 235px;}
+	.diw-greeting-card-list ul li:nth-child(5n){margin-right: 4%;}
+	.gree-card-thumb .middle-text {opacity: 1;}
+	.diw-greeting-card-content .diw-gree-crd-lt, .diw-greeting-card-content .diw-gree-form-md {width: 100%;margin-right: 0;}
+	.diw-greeting-card-content .diw-ad {float: none;text-align: center;}
+}
+@media screen and (min-width: 521px) and (max-width: 1279px){
+	.diw-greeting-card-list ul li:nth-child(5n) {margin-right: 20px;}
+}
+@media screen and (min-width: 768px) and (max-width: 1279px){
+	.diw-greeting-card-content .diw-gree-crd-lt, .diw-greeting-card-content .diw-gree-form-md {width: 45%;}
+	.diw-greeting-card-content .diw-ad {float: none;text-align: center;}
+}
